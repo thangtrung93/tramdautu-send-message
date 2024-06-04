@@ -9,4 +9,4 @@ file_name = f"{channel}.xlsx"
 
 content_message = "Hello you!"
 
-l_target_user = ["@thangtrunghp", "@thangkhong"]
+l_target_user = ["@xgemsniper", "@thangkhong"]

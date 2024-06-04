@@ -17,8 +17,10 @@ content_message = content_message
 client =  TelegramClient("session_send_mess", api_id, api_hash)
 
 async def send_mess():
+    for target_user in l_target_user:
     # try:
-    await client.send_message("@thangkhong", "Hi")
+        await client.send_message(target_user, "Hi")
+        time.sleep(3)
     # except:
         # pass
 with client:
