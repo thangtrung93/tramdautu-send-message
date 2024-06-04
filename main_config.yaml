@@ -1,9 +1,0 @@
-widget:
-  bot_username: "TramDauTuBot" 
-  button_style: "large"
-  userpic: true
-  corner_radius: 5
-  request_access: true
-cookie:
-  expiry_days: 30
-secret_key: "7135735816:AAFiOPeeK2mY9ygFibA5wr9NB_agG8g2AUg" # secret for jwt encode/decode
