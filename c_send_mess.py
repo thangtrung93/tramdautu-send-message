@@ -1,4 +1,3 @@
-import tkinter as tk
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 import time
@@ -19,7 +18,7 @@ client =  TelegramClient("session_send_mess", api_id, api_hash)
 async def send_mess():
     for target_user in l_target_user:
     # try:
-        await client.send_message(target_user, "Hi")
+        await client.send_message(target_user, content_message, parse_mode="html")
         time.sleep(3)
     # except:
         # pass

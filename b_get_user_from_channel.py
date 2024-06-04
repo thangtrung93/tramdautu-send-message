@@ -1,4 +1,3 @@
-import tkinter as tk
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 import time
